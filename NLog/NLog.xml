@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="NLog">
+  <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.IFormatProvider,System.String,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:NLog.Logger.Debug(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.String,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.String,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.String,System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.String,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.String,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.String,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.String,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Debug(System.String,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+
+
+
+  <member name="M:NLog.Logger.Error(System.IFormatProvider,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.IFormatProvider,System.String,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.IFormatProvider,System.String,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.IFormatProvider,System.String,System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.IFormatProvider,System.String,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.IFormatProvider,System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.IFormatProvider,System.String,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.IFormatProvider,System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.IFormatProvider,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.IFormatProvider,System.String,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.IFormatProvider,System.String,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.IFormatProvider,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.IFormatProvider,System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.IFormatProvider,System.String,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:NLog.Logger.Error(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.String,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.String,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.String,System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.String,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.String,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.String,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.String,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Error(System.String,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+
+
+
+  <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.IFormatProvider,System.String,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:NLog.Logger.Fatal(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.String,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.String,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.String,System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.String,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.String,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.String,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.String,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Fatal(System.String,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+
+
+
+  <member name="M:NLog.Logger.Info(System.IFormatProvider,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.IFormatProvider,System.String,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.IFormatProvider,System.String,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.IFormatProvider,System.String,System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.IFormatProvider,System.String,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.IFormatProvider,System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.IFormatProvider,System.String,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.IFormatProvider,System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.IFormatProvider,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.IFormatProvider,System.String,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.IFormatProvider,System.String,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.IFormatProvider,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.IFormatProvider,System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.IFormatProvider,System.String,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:NLog.Logger.Info(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.String,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.String,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.String,System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.String,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.String,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.String,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.String,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Info(System.String,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+
+
+
+  <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:NLog.Logger.Trace(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.String,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.String,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.String,System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.String,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.String,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.String,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.String,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Trace(System.String,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+
+
+
+  <member name="M:NLog.Logger.Warn(System.IFormatProvider,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.IFormatProvider,System.String,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.IFormatProvider,System.String,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.IFormatProvider,System.String,System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.IFormatProvider,System.String,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.IFormatProvider,System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.IFormatProvider,System.String,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.IFormatProvider,System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.IFormatProvider,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.IFormatProvider,System.String,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.IFormatProvider,System.String,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.IFormatProvider,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.IFormatProvider,System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.IFormatProvider,System.String,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:NLog.Logger.Warn(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.String,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.String,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.String,System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.String,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.String,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.String,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.String,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Warn(System.String,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+
+
+
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.IFormatProvider,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.IFormatProvider,System.String,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.IFormatProvider,System.String,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.IFormatProvider,System.String,System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.IFormatProvider,System.String,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.IFormatProvider,System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.IFormatProvider,System.String,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.IFormatProvider,System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.IFormatProvider,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.IFormatProvider,System.String,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.IFormatProvider,System.String,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.IFormatProvider,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.IFormatProvider,System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.IFormatProvider,System.String,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String,System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String,System.Char)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String,System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String,System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String,System.SByte)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String,System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String,System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+</assembly>
