@@ -89,6 +89,30 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 
+  <!-- public void Debug<TArgument>(string message, TArgument argument); -->
+  <member name="M:NLog.Logger.Debug``1(System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Debug<TArgument>(IFormatProvider formatProvider, string message, TArgument argument); -->
+  <member name="M:NLog.Logger.Debug``1(System.IFormatProvider,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Debug<TArgument1, TArgument2>(string message, TArgument1 argument1, TArgument2 argument2); -->
+  <member name="M:NLog.Logger.Debug``2(System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Debug<TArgument1, TArgument2>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2); -->
+  <member name="M:NLog.Logger.Debug``2(System.IFormatProvider,System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Debug<TArgument1, TArgument2, TArgument3>(string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
+  <member name="M:NLog.Logger.Debug``3(System.String,``0,``1, ``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Debug<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
+  <member name="M:NLog.Logger.Debug``3(System.IFormatProvider,System.String,``0,``1, ``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
 
 
 
@@ -181,6 +205,30 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 
+  <!-- public void Error<TArgument>(string message, TArgument argument); -->
+  <member name="M:NLog.Logger.Error``1(System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Error<TArgument>(IFormatProvider formatProvider, string message, TArgument argument); -->
+  <member name="M:NLog.Logger.Error``1(System.IFormatProvider,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Error<TArgument1, TArgument2>(string message, TArgument1 argument1, TArgument2 argument2); -->
+  <member name="M:NLog.Logger.Error``2(System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Error<TArgument1, TArgument2>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2); -->
+  <member name="M:NLog.Logger.Error``2(System.IFormatProvider,System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Error<TArgument1, TArgument2, TArgument3>(string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
+  <member name="M:NLog.Logger.Error``3(System.String,``0,``1, ``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Error<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
+  <member name="M:NLog.Logger.Error``3(System.IFormatProvider,System.String,``0,``1, ``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
 
 
 
@@ -273,6 +321,30 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 
+  <!-- public void Fatal<TArgument>(string message, TArgument argument); -->
+  <member name="M:NLog.Logger.Fatal``1(System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Fatal<TArgument>(IFormatProvider formatProvider, string message, TArgument argument); -->
+  <member name="M:NLog.Logger.Fatal``1(System.IFormatProvider,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Fatal<TArgument1, TArgument2>(string message, TArgument1 argument1, TArgument2 argument2); -->
+  <member name="M:NLog.Logger.Fatal``2(System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Fatal<TArgument1, TArgument2>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2); -->
+  <member name="M:NLog.Logger.Fatal``2(System.IFormatProvider,System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Fatal<TArgument1, TArgument2, TArgument3>(string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
+  <member name="M:NLog.Logger.Fatal``3(System.String,``0,``1, ``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Fatal<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
+  <member name="M:NLog.Logger.Fatal``3(System.IFormatProvider,System.String,``0,``1, ``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
 
 
 
@@ -365,7 +437,30 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 
-
+  <!-- public void Info<TArgument>(string message, TArgument argument); -->
+  <member name="M:NLog.Logger.Info``1(System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Info<TArgument>(IFormatProvider formatProvider, string message, TArgument argument); -->
+  <member name="M:NLog.Logger.Info``1(System.IFormatProvider,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Info<TArgument1, TArgument2>(string message, TArgument1 argument1, TArgument2 argument2); -->
+  <member name="M:NLog.Logger.Info``2(System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Info<TArgument1, TArgument2>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2); -->
+  <member name="M:NLog.Logger.Info``2(System.IFormatProvider,System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Info<TArgument1, TArgument2, TArgument3>(string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
+  <member name="M:NLog.Logger.Info``3(System.String,``0,``1, ``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Info<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
+  <member name="M:NLog.Logger.Info``3(System.IFormatProvider,System.String,``0,``1, ``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
 
 
   <member name="M:NLog.Logger.Trace(System.IFormatProvider,System.String,System.Boolean)">
@@ -457,7 +552,30 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 
-
+  <!-- public void Trace<TArgument>(string message, TArgument argument); -->
+  <member name="M:NLog.Logger.Trace``1(System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Trace<TArgument>(IFormatProvider formatProvider, string message, TArgument argument); -->
+  <member name="M:NLog.Logger.Trace``1(System.IFormatProvider,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Trace<TArgument1, TArgument2>(string message, TArgument1 argument1, TArgument2 argument2); -->
+  <member name="M:NLog.Logger.Trace``2(System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Trace<TArgument1, TArgument2>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2); -->
+  <member name="M:NLog.Logger.Trace``2(System.IFormatProvider,System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Trace<TArgument1, TArgument2, TArgument3>(string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
+  <member name="M:NLog.Logger.Trace``3(System.String,``0,``1, ``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Trace<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
+  <member name="M:NLog.Logger.Trace``3(System.IFormatProvider,System.String,``0,``1, ``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
 
 
   <member name="M:NLog.Logger.Warn(System.IFormatProvider,System.String,System.Boolean)">
@@ -549,7 +667,30 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 
-
+  <!-- public void Warn<TArgument>(string message, TArgument argument); -->
+  <member name="M:NLog.Logger.Warn``1(System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Warn<TArgument>(IFormatProvider formatProvider, string message, TArgument argument); -->
+  <member name="M:NLog.Logger.Warn``1(System.IFormatProvider,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Warn<TArgument1, TArgument2>(string message, TArgument1 argument1, TArgument2 argument2); -->
+  <member name="M:NLog.Logger.Warn``2(System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Warn<TArgument1, TArgument2>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2); -->
+  <member name="M:NLog.Logger.Warn``2(System.IFormatProvider,System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Warn<TArgument1, TArgument2, TArgument3>(string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
+  <member name="M:NLog.Logger.Warn``3(System.String,``0,``1, ``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Warn<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
+  <member name="M:NLog.Logger.Warn``3(System.IFormatProvider,System.String,``0,``1, ``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
 
 
   <member name="M:NLog.Logger.Log(NLog.LogLevel,System.IFormatProvider,System.String,System.Boolean)">
@@ -638,6 +779,31 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
   <member name="M:NLog.Logger.Log(NLog.LogLevel,System.String,System.UInt64)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  
+  <!-- public void Log<TArgument>(NLog.LogLevel level, string message, TArgument argument); -->
+  <member name="M:NLog.Logger.Log``1(NLog.LogLevel,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Log<TArgument>(NLog.LogLevel level, IFormatProvider formatProvider, string message, TArgument argument); -->
+  <member name="M:NLog.Logger.Log``1(NLog.LogLevel,System.IFormatProvider,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Log<TArgument1, TArgument2>(NLog.LogLevel level, string message, TArgument1 argument1, TArgument2 argument2); -->
+  <member name="M:NLog.Logger.Log``2(NLog.LogLevel,System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Log<TArgument1, TArgument2>(NLog.LogLevel level, IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2); -->
+  <member name="M:NLog.Logger.Log``2(NLog.LogLevel,System.IFormatProvider,System.String,``0,``1)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Log<TArgument1, TArgument2, TArgument3>(NLog.LogLevel level, string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
+  <member name="M:NLog.Logger.Log``3(NLog.LogLevel,System.String,``0,``1, ``2)">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  <!-- public void Log<TArgument1, TArgument2, TArgument3>(NLog.LogLevel level, IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
+  <member name="M:NLog.Logger.Log``3(NLog.LogLevel,System.IFormatProvider,System.String,``0,``1, ``2)">
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 </assembly>
