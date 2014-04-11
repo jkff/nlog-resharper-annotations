@@ -110,7 +110,7 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
   <!-- public void Debug<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
-  <member name="M:NLog.Logger.Debug``3(System.IFormatProvider,System.String,``0,``1, ``2)">
+  <member name="M:NLog.Logger.Debug``3(System.IFormatProvider,System.String,``0,``1,``2)">
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 
@@ -226,7 +226,7 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
   <!-- public void Error<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
-  <member name="M:NLog.Logger.Error``3(System.IFormatProvider,System.String,``0,``1, ``2)">
+  <member name="M:NLog.Logger.Error``3(System.IFormatProvider,System.String,``0,``1,``2)">
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 
@@ -342,7 +342,7 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
   <!-- public void Fatal<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
-  <member name="M:NLog.Logger.Fatal``3(System.IFormatProvider,System.String,``0,``1, ``2)">
+  <member name="M:NLog.Logger.Fatal``3(System.IFormatProvider,System.String,``0,``1,``2)">
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 
@@ -458,7 +458,7 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
   <!-- public void Info<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
-  <member name="M:NLog.Logger.Info``3(System.IFormatProvider,System.String,``0,``1, ``2)">
+  <member name="M:NLog.Logger.Info``3(System.IFormatProvider,System.String,``0,``1,``2)">
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 
@@ -573,7 +573,7 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
   <!-- public void Trace<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
-  <member name="M:NLog.Logger.Trace``3(System.IFormatProvider,System.String,``0,``1, ``2)">
+  <member name="M:NLog.Logger.Trace``3(System.IFormatProvider,System.String,``0,``1,``2)">
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 
@@ -688,7 +688,7 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
   <!-- public void Warn<TArgument1, TArgument2, TArgument3>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
-  <member name="M:NLog.Logger.Warn``3(System.IFormatProvider,System.String,``0,``1, ``2)">
+  <member name="M:NLog.Logger.Warn``3(System.IFormatProvider,System.String,``0,``1,``2)">
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 
@@ -803,7 +803,7 @@
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
   <!-- public void Log<TArgument1, TArgument2, TArgument3>(NLog.LogLevel level, IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3); -->
-  <member name="M:NLog.Logger.Log``3(NLog.LogLevel,System.IFormatProvider,System.String,``0,``1, ``2)">
+  <member name="M:NLog.Logger.Log``3(NLog.LogLevel,System.IFormatProvider,System.String,``0,``1,``2)">
     <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
   </member>
 </assembly>
